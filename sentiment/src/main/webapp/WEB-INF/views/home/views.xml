@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="homeSignedIn" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/homeSignedIn.jsp"></put-attribute>
+	</definition>
+	<definition name="item" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/item.jsp"></put-attribute>
+	</definition>
+	<definition name="journey" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/journey.jsp"></put-attribute>
+	</definition>
+	<definition name="addProduct" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/addProduct.jsp"></put-attribute>
+	</definition>
+		<definition name="search" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/search.jsp"></put-attribute>
+	</definition>
+	<definition name="product" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/product.jsp"></put-attribute>
+	</definition>
+	<definition name="user" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/user.jsp"></put-attribute>
+	</definition>
+	<definition name="profile" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/profile.jsp"></put-attribute>
+	</definition>
+	<definition name="people" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/people.jsp"></put-attribute>
+	</definition>
+		<definition name="productNew" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/productNew.jsp"></put-attribute>
+	</definition>
+	<definition name="terms" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/terms.jsp"></put-attribute>
+	</definition>
+	<definition name="privacy" extends="default">
+		<put-attribute name="body" value="/WEB-INF/views/home/privacy.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

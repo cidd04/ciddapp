@@ -1,0 +1,22 @@
+[
+	{
+      "id": null,
+      "feeRuleName": "Standard Charge",
+      "type": "REQUIRED",
+      "debitCredit": "debit",
+      "fromAmount": null,
+      "toAmount": null,
+      "chargeType": "FLAT",
+      "chargeAmount": 0.1
+    },
+    {
+      "id": null,
+      "feeRuleName": "Shipping Charge",
+      "type": "OPTIONAL",
+      "debitCredit": "debit",
+      "fromAmount": null,
+      "toAmount": null,
+      "chargeType": "FLAT",
+      "chargeAmount": 3.0
+    }
+]

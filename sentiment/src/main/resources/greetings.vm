@@ -1,0 +1,122 @@
+<html>
+    <body>
+		<p>Dear $user.name,<p/>
+		<br>
+		<p>Welcome to Pasabuy.com!<p/>
+		<br>
+		<p>Get Php 150 when you complete your first transaction as a traveler!<p/>
+		<br>
+		<p>Invite a friend and get an additional Php 50 when your friend completes his/her first transaction as a traveler!<p/>
+		#if ($activationKey) 
+			<br>
+			<p>To complete the registration, please click this link: <a target="_blank" href="https://pasabuy.com/user/activate/$activationKey">https://pasabuy.com/user/activate/$activationKey</a></p>
+ 		#end
+ 		<br/><br/>
+ 		<h4>1. What is Pasabuy?</h4>
+		<p>
+		Pasabuy is a mobile marketplace for travelers and non-travelers that makes acquisition of local items beneficial to both parties. Travelers can earn from their trip by buying items for non-travelers. While non-travelers can conveniently wait for their requested product without having to pay for the trip nor paying for hefty provincial/overseas shipping fees. 
+		</p>
+		<p>
+		Our vision is to make every shipping economical. As frequent (and budget) travelers ourselves, our mission is to help build a community that maximize each travel experience by supporting local products, bringing and sharing those stuff with non-travelers and utilizing every baggage allowances.
+		</p>
+		<p>
+		Request or recommend any products by simply posting today!
+		</p>
+		<h4>2. How does Pasabuy work?</h4>
+		<p>
+		<strong>Non-traveler/ Requester</strong>
+		</p>
+		<p>
+		a. "Request" for an item that you want from another city or province. Remember to provide a photo of the item for easier identification. Provide description and price you are "Willing to Pay" to the Pasabuy traveler.
+		</p>
+		<p>
+		b. Once posted, other users will be able to see and comment on your request. Sit back and relax until traveler/s "Offer" to buy your item.
+		</p>
+		<p>
+		c. "Accept" if you're satisfied with the offer.
+		</p>
+		<p>
+		d. "Pay" to seal the deal. Note: at this point, you will be prompted to make payment to Pasabuy.
+		</p>
+		<p>
+		e. In the event that the traveler is unable to render the service within 7 days upon published return date, a 100% refund will be credited back to your account.
+		</p>
+		<p>
+		f. Similarly, if there's no dispute or feedback from you within the 7 days upon published delivery date, Pasabuy will proceed with crediting payment to the traveler's account.
+		</p>
+		<p>
+		<strong>Traveler</strong>
+		</p>
+		<p>
+		a. "Add Journey" to inform Pasabuy users about your upcoming trip destination and return date.
+		</p>
+		<p>
+		b. Either "Recommend" products you're willing to bring back or "Offer" to buy requested item/s available in your destination.
+		</p>
+		<p>
+		c. Once a requester accepts and proceeds to pay for your recommendation or offer, you may already start procuring the item. Note: you should be comfortable with the item that you'd be bringing back and be sure that it is allowed in your destination. If you have doubts or if the item is out of stock, you may cancel the transaction.
+		</p>
+		<p>
+		The transaction within agreed timeline via agreed mode - either via meet up or courier delivery service. Prompt requestor to "Confirm Delivery" within 7 days otherwise, any dispute will no longer be entertained.
+		</p>
+		<p>
+		The Pasabuy Guarantee
+		</p>
+		<p>
+		Your payment will be held by Pasabuy until the traveller renders the service within 7 days upon return date published. Only after that timeline will Pasabuy release the payment to the traveller's account.
+		
+		In case of any dispute i.e. counterfeit item or item significantly not as agreed, please contact us via email or call and we will immediately look into that matter.
+		</p>
+		<h4>
+		3. What are the shipping and other charges in Pasabuy?
+		</h4>
+		<p>
+		Pasabuy recommends traveler to ship the items thru Xendph. The traveler can drop off the items to selected 7-Eleven branch around Metro Manila. First, he/she must open an account with Xend at www.xend.com.ph by clicking on the "Sign Up for a Free myXend Account" button. You can also book your "pickups" on the go, by downloading the Xend Mobile App, available for both Android and iOS. 
+		</p>
+		<p>
+		The traveler must book a "pickup" once the account has been created. This "pickup" will be presented to the 7-Eleven counter before payment. The list of selected 7-Eleven branches can be found at new.xend.com.ph/7-eleven . For additional information, visit Xendph FAQ at new.xend.com.ph/faq .
+		</p>
+		<p>
+		The traveler must drop the items before 4:00 pm for same day delivery. The item will be picked up on the next day if dropped after 4:00 pm.
+		</p>
+		<p>
+		Shipping of small items (9" x 14") would cost Php 59 and shipping of large items (12" x 18") would cost Php 79.
+		</p>
+		<p>
+		Pasabuy also charges Php 25 per transaction to admin cost. 
+		</p>
+		<h4>
+		4. How would a traveler know the requester's contact number and shipping address?
+		</h4>
+		<p>
+		Once the requester paid for the products thru our payment system, the traveler would immediately see the requester's contact number and shipping address on the product page. It is very important for the requester to update his/her contact number and address on the profile page.
+		</p>
+		<h4>
+		5. What payment options do you support?
+		</h4>
+		<p>
+		We are currently supporting online banking, Over-the-Counter/ATM, Over-the-Counter (Non-bank), Globe Gcash, Smart money and many others thru Dragonpay payment system. No cash dealings are allowed to prevent any fraud or disputes due to lack of accountability between the two parties.
+		</p>
+		<h4>
+		6. Any tips for Requesters?
+		</h4>
+		<p>
+		In order to attract travelers to buy requested items for you, you must be willing to pay for a higher price for the traveler to earn more. Take note that it one of their incentives aside from wanting to help people get their desired products. You need to consider the time and effort required to purchase the items.
+		</p>
+		<h4>
+		7. Any tips for Travelers?
+		</h4>
+		<p>
+		Keep the receipts and take pictures of the item to prevent disputes. Do not buy any illegal items such as drugs and counterfeit products. Communicate with the requester at all times. Keep safe!
+		</p>
+ 		<br/>
+		Thanks,<br/>
+		Pasabuy Team.
+		<br>
+		<br>
+		<p><a href="https://pasabuy.com"><img src="https://pasabuy.com/resources/images/logo.png" width="170px" height="38px" /></a></p>
+		
+		<br>
+		<p>You can configure your email notification settings <a href="https://pasabuy.com/profile">here</a>
+    </body>
+</html>

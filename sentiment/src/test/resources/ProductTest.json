@@ -1,0 +1,95 @@
+{
+  "id": null,
+  "title": "Starbucks mug",
+  "description": "nice, good, ok",
+  "category": {
+    "id": null,
+    "name": "gadgets"
+  },
+  "imageDescriptions": [
+    {
+      "id": null,
+      "name": "image1",
+      "url": "/home/cidd/pogi"
+    },
+    {
+      "id": null,
+      "name": "image2",
+      "url": "/home/cidd/gwapo"
+    }
+  ],
+  "threshold": 7,
+  "dueDate": "2017-31-01T00:01:02",
+  "fromLocation": {
+    "id": null,
+    "city": "Manila",
+    "country": "Philippines"
+  },
+  "toLocation": {
+    "id": null,
+    "city": "Singapore",
+    "country": "Singapore"
+  },
+  "upVote": 666,
+  "downVote": 1,
+  "productPriceRules": [
+    {
+      "id": null,
+      "priceName": "Complimentary Price",
+      "listedPrice": 0,
+      "actualPrice": 0,
+      "savings": 0,
+      "percentSavings": 0
+    },
+    {
+      "id": null,
+      "priceName": "Standard Price",
+      "listedPrice": 60,
+      "actualPrice": 30,
+      "savings": 30,
+      "percentSavings": 50,
+      "transactionPriceRules": [
+        {
+          "id": null,
+          "fromQuantity": 5,
+          "toQuantity": null,
+          "discountedPrice": 15,
+          "savings": 15,
+          "percentSavings": 50
+        }
+      ]
+    }
+  ],
+  "feeRules": [
+    {
+      "id": null,
+      "feeRuleName": "0 to 10",
+      "type": "PRODUCT",
+      "debitCredit": "debit",
+      "fromAmount": 0,
+      "toAmount": 10,
+      "chargeType": "FLAT",
+      "chargeAmount": 0.4
+    },
+    {
+      "id": null,
+      "feeRuleName": "10 onwards",
+      "type": "PRODUCT",
+      "debitCredit": "debit",
+      "fromAmount": 10,
+      "toAmount": null,
+      "chargeType": "FLAT",
+      "chargeAmount": 0.6
+    },
+    {
+      "id": null,
+      "feeRuleName": "0.5 flat",
+      "type": "PRODUCT",
+      "debitCredit": "debit",
+      "fromAmount": null,
+      "toAmount": null,
+      "chargeType": "PERCENT",
+      "chargeAmount": 0.05
+    }
+  ]
+}
